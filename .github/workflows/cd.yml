@@ -12,8 +12,11 @@ jobs:
       - uses: actions/setup-node@v2
         with:
           node-version: '12'
-      - name: Install dependencies
-        run: npm i
+      - name: Install dependencies and configure git
+        run: |
+          git config --global user.email "cd@skykit.com"
+          git config --global user.name "Github actions"  
+          npm i
       - name: release
         run: npm run release
       - run: cat CHANGELOG.md
