@@ -19,6 +19,7 @@
   "homepage": "https://github.com/skykit-alejandrorodriguez/cd-pipeline#readme",
   "devDependencies": {
     "auto-changelog": "^2.2.1",
-    "release-it": "^14.2.2"
+    "release-it": "^14.2.2",
+    "release-it-lerna-changelog": "^3.1.0"
   }
 }
