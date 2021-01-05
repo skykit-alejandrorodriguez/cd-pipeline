@@ -1,7 +1,4 @@
 {
-    "hooks": {
-        "after:release": "echo"
-    },
     "plugins": {
         "@release-it/conventional-changelog": {
             "infile": "CHANGELOG.md"
@@ -27,7 +24,10 @@
         "publish": false
     },
     "github": {
-        "release": false
+        "release": true,
+        "releaseNotes": "Notes for ${version} ${changelog}",
+        "releaseName": "Release ${version}",
+        "tokenRef": "GITHUB_TOKEN"
     },
     "gitlab": {
         "release": false
