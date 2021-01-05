@@ -3,7 +3,9 @@
         "after:release": "echo"
     },
     "plugins": {
-        "@release-it/conventional-changelog": {}
+        "@release-it/conventional-changelog": {
+            "infile": "CL.md"
+        }
     },
     "git": {
         "changelog": "git log --pretty=format:\"* %s (%h)\" ${from}...${to}",
