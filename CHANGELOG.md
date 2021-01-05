@@ -1,3 +1,7 @@
+## <small>1.0.16 (2021-01-05)</small>
+
+* pipeline 3 ([fa9ebf3](https://github.com/skykit-alejandrorodriguez/cd-pipeline/commit/fa9ebf3))
+
 ## <small>1.0.15 (2021-01-05)</small>
 
 * feat:autochangelog 10 ([7eb44cd](https://github.com/skykit-alejandrorodriguez/cd-pipeline/commit/7eb44cd))
