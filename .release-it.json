@@ -9,14 +9,14 @@
         "requireUpstream": true,
         "requireCommits": false,
         "addUntrackedFiles": false,
-        "commit": false,
+        "commit": true,
         "commitMessage": "Release ${version}",
         "commitArgs": [],
         "tag": true,
         "tagName": null,
         "tagAnnotation": "Release ${version}",
         "tagArgs": [],
-        "push": false,
+        "push": true,
         "pushArgs": [
             "--follow-tags"
         ],
@@ -26,7 +26,7 @@
         "publish": false
     },
     "github": {
-        "release": false
+        "release": true
     },
     "gitlab": {
         "release": false
