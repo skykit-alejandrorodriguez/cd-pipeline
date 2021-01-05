@@ -20,3 +20,6 @@ jobs:
       - name: release
         run: npm run release
       - run: cat CHANGELOG.md
+      - run: |
+          git commit -am '[CD] Auto-release'
+          git push origin main
