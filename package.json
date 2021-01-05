@@ -1,0 +1,19 @@
+{
+  "name": "cd-pipeline",
+  "version": "1.0.0",
+  "description": "1 2 3 sdc s",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/skykit-alejandrorodriguez/cd-pipeline.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/skykit-alejandrorodriguez/cd-pipeline/issues"
+  },
+  "homepage": "https://github.com/skykit-alejandrorodriguez/cd-pipeline#readme"
+}
