@@ -3,7 +3,7 @@
         "after:release": "echo"
     },
     "plugins": {
-        "release-it-lerna-changelog": {}
+        "@release-it/conventional-changelog": {}
     },
     "git": {
         "changelog": "git log --pretty=format:\"* %s (%h)\" ${from}...${to}",
