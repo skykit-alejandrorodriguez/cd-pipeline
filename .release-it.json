@@ -1,7 +1,10 @@
 {
     "hooks": {
-        "after:release": "npm run changelog"
-    } ,
+        "after:release": "echo"
+    },
+    "plugins": {
+        "release-it-lerna-changelog": {}
+    },
     "git": {
         "changelog": "git log --pretty=format:\"* %s (%h)\" ${from}...${to}",
         "requireCleanWorkingDir": true,
