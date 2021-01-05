@@ -1,6 +1,6 @@
 {
   "name": "cd-pipeline",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "1 2 3 sdc s",
   "main": "index.js",
   "scripts": {
