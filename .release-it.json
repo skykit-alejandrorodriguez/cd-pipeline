@@ -26,13 +26,7 @@
         "publish": false
     },
     "github": {
-        "release": false,
-        "releaseName": "Release ${version}",
-        "releaseNotes": null,
-        "preRelease": false,
-        "draft": false,
-        "tokenRef": "GITHUB_TOKEN",
-        "skipChecks": false
+        "release": false
     },
     "gitlab": {
         "release": false
