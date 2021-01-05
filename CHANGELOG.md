@@ -1,3 +1,7 @@
+## <small>1.0.13 (2021-01-05)</small>
+
+* feat:autochangelog 8 ([481cb46](https://github.com/skykit-alejandrorodriguez/cd-pipeline/commit/481cb46))
+
 ## <small>1.0.12 (2021-01-05)</small>
 
 

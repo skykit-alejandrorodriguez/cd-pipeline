@@ -1,10 +1,10 @@
 {
   "name": "cd-pipeline",
-  "version": "1.0.12",
+  "version": "1.0.13",
   "description": "1 2 3 sdc s",
   "main": "index.js",
   "scripts": {
-    "release": "release-it -- patch --ci --tag --no-git.push --git.tag --git.commit",
+    "release": "release-it -- patch --ci",
     "changelog": "auto-changelog -l 400"
   },
   "repository": {
