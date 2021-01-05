@@ -1,12 +1,8 @@
-<<<<<<< HEAD
-### Changelog
-=======
 ## <small>1.0.16 (2021-01-05)</small>
 
 * pipeline 3 ([fa9ebf3](https://github.com/skykit-alejandrorodriguez/cd-pipeline/commit/fa9ebf3))
 
 ## <small>1.0.15 (2021-01-05)</small>
->>>>>>> e0c6167c47834f60c1e6fb264e2e13114ca8aaa3
 
 All notable changes to this project will be documented in this file. Dates are displayed in UTC.
 
