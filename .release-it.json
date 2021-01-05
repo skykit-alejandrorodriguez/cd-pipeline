@@ -4,28 +4,24 @@
     },
     "plugins": {
         "@release-it/conventional-changelog": {
-            "infile": "CL.md"
+            "infile": "CHANGELOG.md"
         }
     },
     "git": {
         "changelog": "git log --pretty=format:\"* %s (%h)\" ${from}...${to}",
-        "requireCleanWorkingDir": true,
+        "requireCleanWorkingDir": false,
         "requireBranch": false,
-        "requireUpstream": true,
+        "requireUpstream": false,
         "requireCommits": false,
         "addUntrackedFiles": false,
-        "commit": true,
+        "commit": false,
         "commitMessage": "Release ${version}",
         "commitArgs": [],
-        "tag": true,
+        "tag": false,
         "tagName": null,
         "tagAnnotation": "Release ${version}",
         "tagArgs": [],
-        "push": true,
-        "pushArgs": [
-            "--follow-tags"
-        ],
-        "pushRepo": ""
+        "push": false
     },
     "npm": {
         "publish": false
