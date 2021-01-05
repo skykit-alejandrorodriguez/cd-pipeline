@@ -1,3 +1,9 @@
+## <small>1.0.15 (2021-01-05)</small>
+
+* feat:autochangelog 10 ([7eb44cd](https://github.com/skykit-alejandrorodriguez/cd-pipeline/commit/7eb44cd))
+* feat:autochangelog 8 ([481cb46](https://github.com/skykit-alejandrorodriguez/cd-pipeline/commit/481cb46))
+* feat:autochangelog 9 ([6a1c1ba](https://github.com/skykit-alejandrorodriguez/cd-pipeline/commit/6a1c1ba))
+
 ## <small>1.0.14 (2021-01-05)</small>
 
 * feat:autochangelog 8 ([481cb46](https://github.com/skykit-alejandrorodriguez/cd-pipeline/commit/481cb46))
