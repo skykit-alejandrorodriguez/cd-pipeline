@@ -4,7 +4,8 @@
   "description": "1 2 3 sdc s",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "release": "release-it -- --ci --no-npm",
+    "changelog": "auto-changelog -l 400"
   },
   "repository": {
     "type": "git",
