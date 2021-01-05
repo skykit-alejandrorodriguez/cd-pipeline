@@ -1,6 +1,6 @@
 {
     "hooks": {
-        "after:release": "npm run changelog"
+        "before:git:push": "npm run changelog"
     } ,
     "git": {
         "changelog": "git log --pretty=format:\"* %s (%h)\" ${from}...${to}",
