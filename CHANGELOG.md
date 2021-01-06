@@ -1,3 +1,7 @@
+## <small>1.0.17 (2021-01-06)</small>
+
+* pipeline 14 ([efcb35b](https://github.com/skykit-alejandrorodriguez/cd-pipeline/commit/efcb35b))
+
 ## <small>1.0.16 (2021-01-05)</small>
 
 * pipeline 3 ([fa9ebf3](https://github.com/skykit-alejandrorodriguez/cd-pipeline/commit/fa9ebf3))
