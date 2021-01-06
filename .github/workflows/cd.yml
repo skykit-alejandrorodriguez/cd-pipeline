@@ -8,7 +8,6 @@ on:
 jobs:
   release:
     runs-on: ubuntu-latest
-    if: github.event.pull_request.merged
     steps:
       - name: Dump GitHub context
         env:
@@ -34,7 +33,7 @@ jobs:
         env:
           MATRIX_CONTEXT: ${{ toJson(matrix) }}
         run: echo "$MATRIX_CONTEXT"
-        
+
       - name: Checkout
         uses: actions/checkout@v2
 
