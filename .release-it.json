@@ -6,17 +6,17 @@
     },
     "git": {
         "changelog": "git log --pretty=format:\"* %s (%h)\" ${from}...${to}",
-        "requireCleanWorkingDir": true,
+        "requireCleanWorkingDir": false,
         "requireBranch": false,
         "requireUpstream": false,
         "requireCommits": false,
         "addUntrackedFiles": false,
         "commit": true,
-        "commitMessage": "[ci skip] new version released",
+        "commitMessage": "Release ${version}",
         "commitArgs": [],
         "tag": true,
         "tagName": null,
-        "tagAnnotation": "Release v${version}",
+        "tagAnnotation": "Release ${version}",
         "tagArgs": [],
         "push": true
     },
@@ -25,8 +25,6 @@
     },
     "github": {
         "release": true,
-        "releaseNotes": "Notes for ",
-        "releaseName": "Release ",
         "tokenRef": "GITHUB_TOKEN"
     },
     "gitlab": {
