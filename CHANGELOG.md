@@ -1,3 +1,7 @@
+## <small>1.0.19 (2021-01-06)</small>
+
+* pipeline 16 ([6565838](https://github.com/skykit-alejandrorodriguez/cd-pipeline/commit/6565838))
+
 ## <small>1.0.18 (2021-01-06)</small>
 
 * Merge branch 'main' of github.com:skykit-alejandrorodriguez/cd-pipeline into main ([db1e6d9](https://github.com/skykit-alejandrorodriguez/cd-pipeline/commit/db1e6d9))
