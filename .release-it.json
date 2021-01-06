@@ -15,7 +15,7 @@
         "commitMessage": "[ci skip] new release version v${version}",
         "commitArgs": [],
         "tag": true,
-        "tagName": null,
+        "tagName": "Release v${version}",
         "tagAnnotation": "Release v${version}",
         "tagArgs": [],
         "push": true
@@ -25,6 +25,7 @@
     },
     "github": {
         "release": true,
+        "releaseName": "Release v${version}",
         "tokenRef": "GITHUB_TOKEN"
     },
     "gitlab": {
