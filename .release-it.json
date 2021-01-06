@@ -12,11 +12,11 @@
         "requireCommits": false,
         "addUntrackedFiles": false,
         "commit": true,
-        "commitMessage": "Release ${version}",
+        "commitMessage": "[ci skip] new release version v${version}",
         "commitArgs": [],
         "tag": true,
         "tagName": null,
-        "tagAnnotation": "Release ${version}",
+        "tagAnnotation": "Release v${version}",
         "tagArgs": [],
         "push": true
     },

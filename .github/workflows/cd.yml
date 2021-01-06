@@ -31,9 +31,7 @@ jobs:
         run: |
           git stash
           npm run release
-          cat CHANGELOG.md
 
-      - name: Pushing new release
-        run: |
-          git commit -am '[CD] Auto-release'
-          git push origin main
+      - name: Changelog
+        run: cat CHANGELOG.md
+        
