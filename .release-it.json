@@ -12,10 +12,10 @@
         "requireCommits": false,
         "addUntrackedFiles": false,
         "commit": true,
-        "commitMessage": "[ci skip] new version released ${version}",
+        "commitMessage": "[ci skip] new version released",
         "commitArgs": [],
         "tag": true,
-        "tagName": "v${version}",
+        "tagName": null,
         "tagAnnotation": "Release v${version}",
         "tagArgs": [],
         "push": true
@@ -25,8 +25,8 @@
     },
     "github": {
         "release": true,
-        "releaseNotes": "Notes for ${version} ${changelog}",
-        "releaseName": "Release v${version}",
+        "releaseNotes": "Notes for ",
+        "releaseName": "Release ",
         "tokenRef": "GITHUB_TOKEN"
     },
     "gitlab": {
