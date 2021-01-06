@@ -10,22 +10,27 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
+        id: checkout
         uses: actions/checkout@v2
 
       - name: Setup Node
+        id: node_setup
         uses: actions/setup-node@v2
         with:
           node-version: '12'
 
       - name: Install dependencies and configure git
+        id: npm_istall
         run: npm install
 
       - name: Configuring Git
+        id: git_setup
         run: |
           git config --global user.email "cd@skykit.com"
-          git config --global user.name "Github actions"
+          git config --global user.name "Continuous integration"
 
       - name: Creating release
+        id: release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
@@ -33,5 +38,11 @@ jobs:
           npm run release
 
       - name: Changelog
+        id: changelog
         run: cat CHANGELOG.md
-        
+
+      - name: Dump steps context
+        env:
+          STEPS_CONTEXT: ${{ toJson(steps) }}
+        run: echo "$STEPS_CONTEXT"
+
