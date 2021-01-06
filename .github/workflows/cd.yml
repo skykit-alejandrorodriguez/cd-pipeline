@@ -3,7 +3,7 @@ name: Skykit calendar Deploy job
 on:
   push:
     branches:
-      - "master"
+      - "main"
 
 jobs:
   release:
